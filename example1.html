@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Example</title>
+</head>
+<body>
+  <div id="test"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.12.2/JSXTransformer.js"></script>
+
+  <script type="text/jsx">
+    var Test = React.createClass({
+      render: function(){
+        return <h1>Hi .NET Group</h1>
+      },
+    });
+
+    React.render(<Test />, document.getElementById("test"));
+  </script>
+</body>
+</html>
